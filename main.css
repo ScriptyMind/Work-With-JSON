@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+  text-align: center;
+  background-color: #e74c3c;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 900;
+  font-size: 70px;
+  color: white;
+}
+
+div {
+  text-align: center;
+  margin: auto;
+  width: 80%; 
+  margin-top: 50px;
+}
+
+#searchBox {
+  background-image: url('/img/icons8-google-web-search-50.png');
+  background-position: 0px 0px; 
+  background-repeat: no-repeat; 
+  background-size: 40px;
+  width: 250px; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul li {
+  text-decoration: none;
+  font-family: 'Nunito';
+  padding: 7px;
+  margin: 5px auto;
+  border-bottom: white solid 1px;
+  color: white;
+}
+
+.high {
+  background-color: rgba(255, 255, 0, 0.794);
+  color: black;
+}
+
+.popu {
+  float: right;
+}
+
