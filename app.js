@@ -2,6 +2,8 @@ var jsonAPI = 'https://raw.githubusercontent.com/ScriptyMind/Morrocan-Cities/mas
 var listCities = document.getElementById("listCities");
 var searchInput = document.getElementById("searchBox");
 
+// Just added to test git
+
 const cities = [];
 fetch(jsonAPI)
   .then(el => el.json())
